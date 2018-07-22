@@ -1,0 +1,77 @@
+
+Setup VETTER_HUBER
+= = = = = = = = = = 
+TO DO:
+
+
+
+PRESETS
+- - - - - 
+- für jeden Song einzeln
+
+
+
+
+
+
+
+
+GUI
+- - - 
+Encoder + Slider
+
+Raster für Sound Events
+- Buttons - verschiedene Farben für Status (ruhe/aktiv/leer/..)
+	- Strings für Content zentral speichern/ updaten
+
+Meter für die einzelnen Kanäle
+Songübersicht inkl. Nummern
+
+Buttons
+- Audio - Reboot-Button
+- Background Aktivität Button
+- Play/ Stop
+
+Knobs - Vielleicht doch mit Pen, sieht eindeutiger aus..
+evtl. die GUI unabhängig vom System machen (Window.onClose lässt alles okay)
+
+
+
+
+MIXER
+- - - 
+Presets für Slider/Encoder Stellung in Files
+Play/Stop Buttons belegen 
+vorwärts/rückwärts durch Lieder scrollen/auswählen
+Evtl. Shift zu Synth (Motorfader, andere GUI)
+Mute Buttons = Volume-Fade down/up
+Write-Button für alle Einstellungen zum Track-LoadStart
+auf Encoder drücken lädt die default Einstellungen
+
+
+
+SYSTEM
+- - - - 
+Start/ Stop Routine, Pattern/Function
+- name/ presets/ updates GUI, MIxer
+Variablen checken.
+bessere Einbindung von Track.scd Dateien (auch .postln;, Arrays, Trackevents, etc.) 
+evtl. Überarbeitung Startroutinen (zentral, nacheinander)
+
+ein Manual-Überblick
+- verbose-mode
+- zentrale Variablen
+
+Systemtests/ Auslastung/ Einfrieren
+Tracks-Instrumente - Lautstärken einfacher regeln/merken,speichern
+MVC - SimpleController
+Alle LEDs zusammenführen
+dynamic songs
+
+extra file- arrays/ values
+
+
+
+
+
+
